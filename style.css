@@ -1,0 +1,6 @@
+/*identidicador {propuedad : valor ; } */
+body {background-color: aquamarine;}
+.parrafo-comun{color: rgb(131, 24, 202);background-color: rgb(115, 216, 213);}
+#parrafo-especial{width: 70%}
+#parrafo-especial{background-color: rgb(27, 216, 249);}
+#encabezado {position: sticky; top: 0; background-color: rgb(128, 242, 242);}
