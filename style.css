@@ -1,11 +1,10 @@
-/*identidicador {propuedad : valor ; } */
-body {background-color: aquamarine;}
-.encabezado{outline-style: dashed;}
-.parrafo-comun{color: rgb(131, 24, 202);background-color: rgb(115, 216, 213);}
-.parrafo-comun{font-family: 'Moirai One', cursive;}
-#parrafo-especial{width: 70%}
-#parrafo-especial{background-color: rgb(27, 216, 249);}
-#parrafo-especial{font-family:"papyrus",fantasy;}
-#encabezado {position: sticky; top: 0; background-color: rgb(128, 242, 242);}
-#logo{width: 600px;;}
-#logo2{width: 750px;;}
+/*body {background-color: rgb(240, 255, 255);}*/
+body{background-image: url(fondo.jpeg);}
+#encabezado {position: sticky; top: 0;background-color: rgb(215, 248, 248);}
+#encabezado{font-size: 65px;}
+.parrafo-comun{color: black; background-color: rgb(215, 248, 248);}
+#parrafo-especial{background-color:rgb(215, 248, 248);}
+#parrafo-especial{width: 81%}
+#logo{width: 500px;}
+#icon {font-size: 40px;}
+#encabezado {border: 2px solid rgb(215, 248, 248); border-radius: 12px; padding: 5px;}

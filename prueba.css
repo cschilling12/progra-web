@@ -1,0 +1,11 @@
+/*identidicador {propuedad : valor ; } */
+body {background-color: aquamarine;}
+.encabezado{outline-style: dashed;}
+.parrafo-comun{color: rgb(131, 24, 202);background-color: rgb(115, 216, 213);}
+.parrafo-comun{font-family: 'Moirai One', cursive;}
+#parrafo-especial{width: 70%}
+#parrafo-especial{background-color: rgb(27, 216, 249);}
+#parrafo-especial{font-family:"papyrus",fantasy;}
+#encabezado {position: sticky; top: 0; background-color: rgb(128, 242, 242);}
+#logo{width: 600px;;}
+#logo2{width: 750px;;}
