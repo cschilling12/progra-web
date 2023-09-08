@@ -1,10 +1,17 @@
 /*body {background-color: rgb(240, 255, 255);}*/
 body{background-image: url(fondo.jpeg);}
 #encabezado {position: sticky; top: 0;background-color: rgb(215, 248, 248);}
-#encabezado{font-size: 65px;}
-.parrafo-comun{color: black; background-color: rgb(215, 248, 248);}
+#encabezado{font-size: 400%;}
+#encabezado{font-family: 'Moirai One', cursive;}
+p::first-letter {color: rgb(0, 174, 255); font-size: 250%; font-family: 'Moirai One', cursive;}
+.parrafo-comun{color: black; background-color: rgb(215, 248, 248);font-size: 130%;}
 #parrafo-especial{background-color:rgb(215, 248, 248);}
-#parrafo-especial{width: 81%}
-#logo{width: 500px;}
-#icon {font-size: 40px;}
+#parrafo-especial{width: 90%}
+#logo{width: 50%;}
+#icon {font-size: 70%;}
 #encabezado {border: 2px solid rgb(215, 248, 248); border-radius: 12px; padding: 5px;}
+#foto{width: 100%;}
+a:visited {color: black;}
+a:hover {color: blue;}
+a:active {color: rgb(115, 223, 115);}
+::selection {color: white; background: rgb(0, 174, 255)}
