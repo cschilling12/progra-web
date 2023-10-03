@@ -1,0 +1,4 @@
+body{background-image: url(fondo.jpeg);}
+#encabezado {position: sticky; top: 0;background-color: rgb(215, 248, 248);}
+#encabezado{font-size: 400%;}
+#encabezado{ font-family: 'Moirai One', cursive;}
