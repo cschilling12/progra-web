@@ -3,7 +3,6 @@ body{background-image: url(fondo.jpeg);}
 #encabezado {top: 0;background-color: rgb(215, 248, 248);}
 #encabezado{font-size: 400%;}
 #encabezado{ font-family: 'Moirai One', cursive;}
-p::first-letter {color: rgb(123, 209, 248); font-size: 250%; font-family: 'Moirai One', cursive;}
 .parrafo-comun{color: black; background-color: rgb(215, 248, 248);font-size: 130%;}
 #parrafo-especial{background-color:rgb(215, 248, 248);}
 #parrafo-especial{width: 90%}
