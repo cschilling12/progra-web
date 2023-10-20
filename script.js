@@ -163,14 +163,28 @@ let profesor = {nombre: "esteban", edad: 30, actividad: true,}
 let profesorString = JSON.stringify(profesor)
 let profesorObjeto = JSON.parse(profesorString)
 
+if (2) {console.log("2");}
+
+let edad = "!"
+if(edad > 18) {console.log("Proceda");}else if (edad < 18){console.log("Huya soldado");}else if (typeof(edad)!= Number){console.log("Valor no valido");} else{console.log("Error");}
+
+let expr = "Papayas"
+switch(expr){case "Naranjas":console.log("Hola mundo"); break; case "Papayas": console.log("No hay mas " + expr + ".") }
+//switch(expr){case "Naranjas":console.log("Hola mundo"); break; case "Papayas": console.log(`No hay mas:`${expr})}
 
 
+// lo que escriba dentro del alert() me va a salit un popout de la pagina diciendo lo que escribi
+//parseInt(prompt)("Ingrese su edad") --> el parse cambia el tipo de dato
 
-
-
-
-
-
+let peso = parseInt(prompt("Ingrese su peso:"))
+let altura = parseFloat(prompt("Ingrese su altura:"))
+if (altura == 0){console.log("Ingrese la altura nuevamente")}
+else{
+    if((peso/(altura)**2) > 30){console.log("Usted tiene obesidad");}
+    else if ((peso/(altura)**2) <= 30 && (peso/(altura)**2) > 25 ){console.log("Usted tiene sobre peso");}
+    else if ((peso/(altura)**2) <= 25 && (peso/(altura)**2) > 18.5){console.log("Usted tiene un peso normal");}
+    else {console.log("Usted tiene menos peso de lo normal");}
+}&
 
 
 
