@@ -175,7 +175,7 @@ switch(expr){case "Naranjas":console.log("Hola mundo"); break; case "Papayas": c
 
 // lo que escriba dentro del alert() me va a salit un popout de la pagina diciendo lo que escribi
 //parseInt(prompt)("Ingrese su edad") --> el parse cambia el tipo de dato
-
+/*
 let peso = parseInt(prompt("Ingrese su peso:"))
 let altura = parseFloat(prompt("Ingrese su altura:"))
 if (altura == 0){console.log("Ingrese la altura nuevamente")}
@@ -184,7 +184,13 @@ else{
     else if ((peso/(altura)**2) <= 30 && (peso/(altura)**2) > 25 ){console.log("Usted tiene sobre peso");}
     else if ((peso/(altura)**2) <= 25 && (peso/(altura)**2) > 18.5){console.log("Usted tiene un peso normal");}
     else {console.log("Usted tiene menos peso de lo normal");}
-}&
+}
+*/
+let parrafoHTML = document.getElementById("parrafo");
+parrafoHTML.innerText = "Hola mundo"
+
+let nombrecito = prompt("Ingrese su nombre:")
+document.getElementById("titular").innerHTML = "Hola "+nombrecito;
 
 
 
