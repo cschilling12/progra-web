@@ -3,6 +3,7 @@ body{background-image: url(fondo.jpeg);}
 #encabezado{font-size: 400%;}
 #encabezado{ font-family: 'Moirai One', cursive;}
 .btn{ background-color: rgb(123, 209, 248); border: none; color: white; padding: 17px 22px; text-align: center; text-decoration: none; display: inline-block; font-size: 20px; margin: 4px 2px; cursor: pointer;}
+#icon {font-size: 70%;}
 #p{background-color: rgb(215, 248, 248);}
 #foto0{width: 50%; ;}
 #foto1{width: 80%;}
@@ -18,3 +19,6 @@ div.gallery img {width: 100%;height: auto;}
 div.desc {padding: 3px;text-align: center;}
 
 .b {border-radius: 12px; font-size: 80%;}
+
+.carrito {font-variation-settings:'FILL' 0,'wght' 400,'GRAD' 0,'opsz' 24; font-size: 180%;}
+

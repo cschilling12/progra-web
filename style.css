@@ -21,4 +21,8 @@ a:active {color: rgb(115, 223, 115);}
 .cf:hover{background:rgb(208, 68, 255);}
 .cm:hover{background:rgb(26, 26, 26);}
 .cc:hover{background:rgb(172, 197, 5);}
-.container-fluid{position: sticky;} /*no se por que no anda
+.container-fluid{position: sticky;} /*no se por que no anda*/
+
+.carrito {font-variation-settings:'FILL' 0,'wght' 400,'GRAD' 0,'opsz' 24; font-size: 180%;}
+
+.fondo{background-color: rgb(228, 228, 228);}
