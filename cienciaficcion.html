@@ -9,7 +9,7 @@
     <title>Reino Libro</title>
     <link rel="stylesheet" href="sub-paginas.css">
 <style> /*interno*/</style>
-<head>
+</head>
 <body>
     <main>
         <h1  style="border: 2px solid black" id="encabezado" ><center>Reino de los Libros <span id="icon" class="material-symbols-outlined">library_books </span></center></h1>
@@ -22,7 +22,7 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="./envios.html">Envios</a>
+                    <a class="nav-link active" aria-current="page" href="./carrito.html">Compras</a>
                   </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -42,62 +42,46 @@
                   <li class="nav-item">
                     <a class="nav-link disabled" aria-disabled="true">Ciencia Ficción</a>
                   </li>
-                  <span class="material-symbols-outlined carrito"><a href="./carrito.html">shopping_cart</a></span>
                 </ul>
               </div>
             </div>
           </nav> 
 
-          <div class="gallery">
-            <img src="dune, aventuras en el imperio.png" alt="Libro Dune, Aventuras en el Imperio" >
-          </a>
-          <div class="desc"><b>Dune, Aventuras en el Imperio - Frank Herbert</b></div>
-          <div class="desc">Precio: $10.200</div>
-          <div><button class = "b" style="display: block; margin-left: auto; margin-right: auto;" onclick="myFunction()"> Añadir al carrito</button></div>
-        </div>
+          <div class="container mb-4">
+            <div class="row row-cols-1 row-cols-md-3 g-4 container-items">
+            
+            <div class="col">
+              <div class="card">
+                <img src="dune.jpeg" class="card-img-top" alt="BLUE DOLPHINS T-SHIRT">
+                <div class="card-body">
+                  <h5 class="card-title">Dune, Aventuras en el Imperio - Frank Herbert</h5>
+                  <p class="card-text">Arrakis, también denominado "Dune", se ha convertido en el planeta más importante del universo. A su alrededor comienza una gigantesca lucha por el poder que culmina en una guerra interestelar.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card">
+                <img src="frankenstein.jpeg" class="card-img-top" alt="BLUE DOLPHINS T-SHIRT">
+                <div class="card-body">
+                  <h5 class="card-title">Frankenstein - Mary Shelley</h5>
+                  <p class="card-text">La novela narra la historia de Víctor Frankenstein, un joven suizo, estudiante de medicina en Ingolstadt, obsesionado por conocer "los secretos del cielo y la tierra". En su afán por desentrañar "la misteriosa alma del hombre", Víctor crea un cuerpo a partir de la unión de distintas partes de cadáveres diseccionados.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card">
+                <img src="luz de los jedi.jpeg" class="card-img-top" alt="BLUE DOLPHINS T-SHIRT">
+                <div class="card-body">
+                  <h5 class="card-title">Luz de los Jedi - Chales Soule</h5>
+                  <p class="card-text">Mucho antes de la Primera Orden, antes del Imperio, incluso antes de La Amenaza Fantasma, existió la edad de oro. Dos siglos antes de la saga Skywalker...</p>
+                </div>
+              </div>
+            </div>
+          </div>
         
-        <div class="gallery">
-          <img src="frankenstein.webp" alt="Libro Frankenstein">
-        </a>
-        <div class="desc"><b>Frankenstein - Mary Shelley</b></div>
-        <div class="desc">Precio: $2.700</div>
-        <div><button class = "b" style="display: block; margin-left: auto; margin-right: auto;" onclick="myFunction()"> Añadir al carrito</button></div>
-      </div>
-
-        <div class="gallery">
-            <img src="luz de los jedi.png" alt="Libro Lus de los Jedi" >
-          </a>
-          <div class="desc"><b>Luz de los Jedi - Chales Soule</b></div>
-          <div class="desc">Precio: $4.800</div>
-          <div><button class = "b" style="display: block; margin-left: auto; margin-right: auto;" onclick="myFunction()"> Añadir al carrito</button></div>
-        </div>
-        
-        <div class="gallery">
-            <img src="poster girl.webp" alt="Libro Poster Girl">
-          </a>
-          <div class="desc"><b>Poster Girl - Veronica Roth</b></div>
-          <div class="desc">Precio: $7.100</div>
-          <div><button class = "b" style="display: block; margin-left: auto; margin-right: auto;" onclick="myFunction()"> Añadir al carrito</button></div>
-        </div>
-        
-        <div class="gallery">
-            <img src="islas en el cielo.jpeg" alt="Libro Isla en el Cielo">
-          </a>
-          <div class="desc"><b>Islas en el Cielo - Pedro Pablo G. May</b></div>
-          <div class="desc">Precio: $5.200</div>
-          <div><button class = "b" style="display: block; margin-left: auto; margin-right: auto;" onclick="myFunction()"> Añadir al carrito</button></div>
-        </div>
-
-        <div class="gallery">
-            <img src="el dormilón.png" alt="Libro El Dornilón">
-          </a>
-          <div class="desc"><b>El Dormilón - Rodolfo Santullo</b></div>
-          <div class="desc">Precio: $3.100</div>
-          <div><button class = "b" style="display: block; margin-left: auto; margin-right: auto;" onclick="myFunction()"> Añadir al carrito</button></div>
-        </div>
-
-
     </main>
+  <script src="./script.js"></script>
 </body>
-<script src="script.js"></script>
-</head>
+</html>

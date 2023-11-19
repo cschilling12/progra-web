@@ -9,7 +9,7 @@
     <title>Reino Libro</title>
     <link rel="stylesheet" href="sub-paginas.css">
 <style> /*interno*/</style>
-<head>
+</head>
 <body>
     <main>
         <h1  style="border: 2px solid black" id="encabezado" ><center>Reino de los Libros <span id="icon" class="material-symbols-outlined">library_books </span></center></h1>
@@ -22,7 +22,7 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="./envios.html">Envios</a>
+                    <a class="nav-link active" aria-current="page" href="./carrito.html">Compras</a>
                   </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -42,60 +42,44 @@
                   <li class="nav-item">
                     <a class="nav-link disabled" aria-disabled="true">Juvenil</a>
                   </li>
-                  <span class="material-symbols-outlined carrito"><a href="./carrito.html">shopping_cart</a></span>
                 </ul>
               </div>
             </div>
           </nav> 
 
-          <div class="gallery">
-            <img src="anhelo.webp" alt="Libro Anhelo" >
-          </a>
-          <div class="desc"><b> Ahenlo - Tracy Wolff</b></div>
-          <div class="desc">Precio: $11.400</div>
-          <div><button class = "b" style="display: block; margin-left: auto; margin-right: auto;" onclick="myFunction()"> Añadir al carrito</button></div>
-        </div>
-        
-        <div class="gallery">
-          <img src="crepusculo.webp" alt="Libro Crepúsculo">
-        </a>
-        <div class="desc"><b>Crepúsculo - Stephanie Meyer</b></div>
-        <div class="desc">Precio: $13.000</div>
-        <div><button class = "b" style="display: block; margin-left: auto; margin-right: auto;" onclick="myFunction()"> Añadir al carrito</button></div>
-      </div>
+          <div class="container mb-4">
+            <div class="row row-cols-1 row-cols-md-3 g-4 container-items">
+            
+            <div class="col">
+              <div class="card">
+                <img src="anhelo.jpeg" class="card-img-top" alt="BLUE DOLPHINS T-SHIRT">
+                <div class="card-body">
+                  <h5 class="card-title">Ahenlo - Tracy Wolff</h5>
+                  <p class="card-text">«Aquí todo es raro: la escuela, los alumnos. En este sitio nada tiene sentido, y aquí estoy, una simple mortal entre dioses... o monstruos. Todavía no sé a qué bando pertenezco, si es que pertenezco a alguno... Solo sé que lo que les une a todos es su odio hacia mí.»</p>
+                </div>
+              </div>
+            </div>
 
-        <div class="gallery">
-            <img src="la ultima melodia de chopin.png" alt="Libro La Última Melodia de Chopin" >
-          </a>
-          <div class="desc"><b>La Última Melodia de Chopin - Blue Jeans</b></div>
-          <div class="desc">Precio: $10.500</div>
-          <div><button class = "b" style="display: block; margin-left: auto; margin-right: auto;" onclick="myFunction()"> Añadir al carrito</button></div>
-        </div>
-        
-        <div class="gallery">
-            <img src="las ventajas de ser invisible.webp" alt="Libro Las Ventajas de Ser Invisible">
-          </a>
-          <div class="desc"><b>Las Ventajas de Ser Invisible - Stephen Chbosky</b></div>
-          <div class="desc">Precio: $13.200</div>
-          <div><button class = "b" style="display: block; margin-left: auto; margin-right: auto;" onclick="myFunction()"> Añadir al carrito</button></div>
-        </div>
-        
-        <div class="gallery">
-            <img src="romper el circulo.png" alt="Libro Romper el Círculo">
-          </a>
-          <div class="desc"><b>Romper el Círculo - Colleen Hoover</b></div>
-          <div class="desc">Precio: $7.700</div>
-          <div><button class = "b" style="display: block; margin-left: auto; margin-right: auto;" onclick="myFunction()"> Añadir al carrito</button></div>
-        </div>
+            <div class="col">
+              <div class="card">
+                <img src="crepusculo.jpeg" class="card-img-top" alt="BLUE DOLPHINS T-SHIRT">
+                <div class="card-body">
+                  <h5 class="card-title">Crepúsculo - Stephanie Meyer</h5>
+                  <p class="card-text">Bella Swan se va a vivir con su padre al pequeño pueblo de Forks, donde conoce a Edward, un atractivo y misterioso chico del que se enamora y quien esconde un gran secreto: es un vampiro. Pero la familia del chico guarda una peculiaridad, y es que no se alimenta de sangre humana.</p>
+                </div>
+              </div>
+            </div>
 
-        <div class="gallery">
-            <img src="buscando a dorothy.png" alt="Libro Buscando a Dorothy">
-          </a>
-          <div class="desc"><b>Buscando a Dorothy - Elizabeth Letts</b></div>
-          <div class="desc">Precio: $8.200</div>
-          <div><button class = "b" style="display: block; margin-left: auto; margin-right: auto;" onclick="myFunction()"> Añadir al carrito</button></div>
-        </div>
+            <div class="col">
+              <div class="card">
+                <img src="las ventajas de ser invisible.jpeg" class="card-img-top" alt="BLUE DOLPHINS T-SHIRT">
+                <div class="card-body">
+                  <h5 class="card-title">Las Ventajas de Ser Invisible - Stephen Chbosky</h5>
+                  <p class="card-text">Conocer a Sam y Patrick, los chicos más excéntricos del instituto, provocará un giro radical en su vida que lo sumergirá de pleno en la adolescencia. Vivir al margen ofrece una perspectiva única. Pero siempre llega el momento de entrar en escena y ver el mundo desde dentro.</p>
+                </div>
+              </div>
+            </div>
     </main>
+  <script src="./script.js"></script>
 </body>
-<script src="script.js"></script>
-</head>
+</html>

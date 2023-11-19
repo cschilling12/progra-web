@@ -9,7 +9,7 @@
     <title>Reino Libro</title>
     <link rel="stylesheet" href="sub-paginas.css">
 <style> /*interno*/</style>
-<head>
+</head>
 <body>
     <main>
         <h1  style="border: 2px solid black" id="encabezado" ><center>Reino de los Libros <span id="icon" class="material-symbols-outlined">library_books </span></center></h1>
@@ -22,7 +22,7 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="./envios.html">Envios</a>
+                    <a class="nav-link active" aria-current="page" href="./carrito.html">Compras</a>
                   </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -42,61 +42,44 @@
                   <li class="nav-item">
                     <a class="nav-link disabled" aria-disabled="true">Fantasía</a>
                   </li>
-                  <span class="material-symbols-outlined carrito"><a href="./carrito.html">shopping_cart</a></span>
                 </ul>
               </div>
             </div>
           </nav> 
 
-          <div class="gallery">
-            <img src="harry potter y el caliz de fuego.webp" alt="Libro Harry Potter y el Cáliz de Fuego" >
-          </a>
-          <div class="desc"><b> Harry Potter y el Cáliz de Fuego - J.K Rowling</b></div>
-          <div class="desc">Precio: $14.200</div>
-          <div><button class = "b" style="display: block; margin-left: auto; margin-right: auto;" onclick="myFunction()"> Añadir al carrito</button></div>
-        </div>
-        
-        <div class="gallery">
-          <img src="Narina principe caspian.png" alt="Libro Narnia, El Príncipe Caspian">
-        </a>
-        <div class="desc"><b>Narnia, El Príncipe Caspian - C.S LEWIS</b></div>
-        <div class="desc">Precio: $5.400</div>
-        <div><button class = "b" style="display: block; margin-left: auto; margin-right: auto;" onclick="myFunction()"> Añadir al carrito</button></div>
-      </div>
+          <div class="container mb-4">
+            <div class="row row-cols-1 row-cols-md-3 g-4 container-items">
+            
+            <div class="col">
+              <div class="card">
+                <img src="harry potter y el caliz de fuego.jpeg" class="card-img-top" alt="BLUE DOLPHINS T-SHIRT">
+                <div class="card-body">
+                  <h5 class="card-title">Harry Potter y el Cáliz de Fuego - J.K Rowling</h5>
+                  <p class="card-text">Hogwarts se prepara para el Torneo de los Tres Magos, en el que competirán tres escuelas de hechicería. Para sorpresa de todos, Harry Potter es elegido para participar en la competencia, en la que deberá luchar contra dragones, internarse en el agua y enfrentarse a sus mayores miedos.</p>
+                </div>
+              </div>
+            </div>
 
-        <div class="gallery">
-            <img src="el mar de los monstruos.webp" alt="Libro Percy Jackson y el Mar de los Monstruos" >
-          </a>
-          <div class="desc"><b>Percy Jackson y el Mar de los Monstruos - Rick Riordan</b></div>
-          <div class="desc">Precio: $12.700</div>
-          <div><button class = "b" style="display: block; margin-left: auto; margin-right: auto;" onclick="myFunction()"> Añadir al carrito</button></div>
-        </div>
-        
-        <div class="gallery">
-            <img src="el señor de los anillos, la comunidad del anillo.webp" alt="Libro El Señor de los anillos, La comunidad del Anillo ">
-          </a>
-          <div class="desc"><b>El señor de los anillos, la Comunidad del Anillo - J.R.R Tolkien</b></div>
-          <div class="desc">Precio: $14.900</div>
-          <div><button class = "b" style="display: block; margin-left: auto; margin-right: auto;" onclick="myFunction()"> Añadir al carrito</button></div>
-        </div>
-        
-        <div class="gallery">
-            <img src="la vuelta al mundo en 80 dias.png" alt="Libro La Vuelta al Mundo en 80 días">
-          </a>
-          <div class="desc"><b>La Vuelta al Mundo en 80 Días - Julio Verne</b></div>
-          <div class="desc">Precio: $5.300</div>
-          <div><button class = "b" style="display: block; margin-left: auto; margin-right: auto;" onclick="myFunction()"> Añadir al carrito</button></div>
-        </div>
+            <div class="col">
+              <div class="card">
+                <img src="Narina principe caspian.jpeg" class="card-img-top" alt="BLUE DOLPHINS T-SHIRT">
+                <div class="card-body">
+                  <h5 class="card-title">Narnia, El Príncipe Caspian - C.S LEWIS</h5>
+                  <p class="card-text">Los cuatro hermanos Pevensie regresan a Narnia y, aunque para ellos ha pasado un año, allá han transcurrido 1300 años. Narnia está ahora sometida a los telmarinos, a quienes dirige el malvado rey Miraz.</p>
+                </div>
+              </div>
+            </div>
 
-        <div class="gallery">
-            <img src="la sinfonía del unicornio.png" alt="Libro La Sinfonía del Unicorno">
-          </a>
-          <div class="desc"><b>La Sinfonía del Unicornio - Tiffany Calligaris</b></div>
-          <div class="desc">Precio: $6.200</div>
-          <div><button class = "b" style="display: block; margin-left: auto; margin-right: auto;" onclick="myFunction()"> Añadir al carrito</button></div>
-        </div>
-
+            <div class="col">
+              <div class="card">
+                <img src="el mar de los monstruos.jpeg" class="card-img-top" alt="BLUE DOLPHINS T-SHIRT">
+                <div class="card-body">
+                  <h5 class="card-title">Percy Jackson y el Mar de los Monstruos - Rick Riordan</h5>
+                  <p class="card-text">Para encontrar el mágico Vellocino de Oro y salvar el campamento Half-Blood, Percy y sus amigos realizan una peligrosa odisea a un área conocida por los humanos como el Triángulo de las Bermudas.</p>
+                </div>
+              </div>
+            </div>
     </main>
+  <script src="./script.js"></script>
 </body>
-<script src="script.js"></script>
-</head>
+</html>

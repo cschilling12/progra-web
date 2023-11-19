@@ -9,7 +9,7 @@
     <title>Reino Libro</title>
     <link rel="stylesheet" href="sub-paginas.css">
 <style> /*interno*/</style>
-<head>
+</head>
 <body>
     <main>
         <h1  style="border: 2px solid black" id="encabezado" ><center>Reino de los Libros <span id="icon" class="material-symbols-outlined">library_books </span></center></h1>
@@ -22,7 +22,7 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="./envios.html">Envios</a>
+                    <a class="nav-link active" aria-current="page" href="./carrito.html">Compras</a>
                   </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -42,61 +42,46 @@
                   <li class="nav-item">
                     <a class="nav-link disabled" aria-disabled="true">Terror</a>
                   </li>
-                  <span class="material-symbols-outlined carrito"><a href="./carrito.html">shopping_cart</a></span>
                 </ul>
               </div>
             </div>
           </nav> 
 
-          <div class="gallery">
-              <img src="it.webp" alt="Libro IT" >
-            </a>
-            <div class="desc" value="agregar al carrito" id="1"><b> IT - Stephen King</b></div>
-            <div class="desc">Precio: $17.400</div>
-            <div><button class = "b" style="display: block; margin-left: auto; margin-right: auto;" onclick="myFunction()"> Añadir al carrito</button></div>
-          </div>
+          <br>
+          <div class="container mb-4">
+          <div class="row row-cols-1 row-cols-md-3 g-4 container-items">
           
-          <div class="gallery">
-            <img src="el visitante.webp" alt="Libro El Visitante">
-          </a>
-          <div class="desc" value="agregar al carrito" id="2"><b>El Visitante - Stephen King</b></div>
-          <div class="desc">Precio: $11.500</div>
-          <div><button class = "b" style="display: block; margin-left: auto; margin-right: auto;" onclick="myFunction()"> Añadir al carrito</button></div>
-        </div>
-
-          <div class="gallery">
-              <img src="Antologia de terror.webp" alt="Libro Antologia de Terror" >
-            </a>
-            <div class="desc" value="agregar al carrito" id="3"><b>Antalogia de Terror - H.P Lovecraft</b></div>
-            <div class="desc">Precio: $15.500</div>
-            <div><button class = "b" style="display: block; margin-left: auto; margin-right: auto;" onclick="myFunction()"> Añadir al carrito</button></div>
-          </div>
-          
-          <div class="gallery">
-              <img src="horror es humano.webp" alt="Libro Horror es Humano">
-            </a>
-            <div class="desc" value="agregar al carrito" id="4"><b>Horror es Humano - Pablo Pinto</b></div>
-            <div class="desc">Precio: $4.200</div>
-            <div><button class = "b" style="display: block; margin-left: auto; margin-right: auto;" onclick="myFunction()"> Añadir al carrito</button></div>
-          </div>
-          
-          <div class="gallery">
-              <img src="La-cajanegra-de-laton.png" alt="Libro La caja Negra de Laton">
-            </a>
-            <div class="desc" value="agregar al carrito" id="5"><b>La Caja Negra de Latón - Jorge Beltrán Navarrete</b></div>
-            <div class="desc">Precio: $6.200</div>
-            <div><button class = "b" style="display: block; margin-left: auto; margin-right: auto;" onclick="myFunction()"> Añadir al carrito</button></div>
+          <div class="col">
+            <div class="card">
+              <img src="it.jpeg" class="card-img-top" alt="BLUE DOLPHINS T-SHIRT">
+              <div class="card-body">
+                <h5 class="card-title">IT - Stephen King</h5>
+                <p class="card-text">Varios niños de una pequeña ciudad del estado de Maine se alían para combatir a una entidad diabólica que adopta la forma de un payaso y desde hace mucho tiempo emerge cada 27 años para saciarse de sangre infantil.</p>
+              </div>
+            </div>
           </div>
 
-          <div class="gallery">
-              <img src="escorias del terror.png" alt="Libro Escorias del Terror">
-            </a>
-            <div class="desc" value="agregar al carrito" id="6"><b>Escorias del Terror - Nicolás Gonzáles Coloma</b></div>
-            <div class="desc">Precio: $8.900</div>
-            <div><button class = "b" style="display: block; margin-left: auto; margin-right: auto;" onclick="myFunction()"> Añadir al carrito</button></div>
+          <div class="col">
+            <div class="card">
+              <img src="el visitante.jpeg" class="card-img-top" alt="BLUE DOLPHINS T-SHIRT">
+              <div class="card-body">
+                <h5 class="card-title">El Visitante - Stephen King</h5>
+                <p class="card-text">En la ciudad ficticia de Flint City, Oklahoma, el detective de la policía Ralph Anderson arresta al entrenador de béisbol y profesor Terry Maitland frente a una multitud de espectadores, acusándolo de matar y mutilar a un niño de 11 años.</p>
+              </div>
+            </div>
           </div>
-          
+
+          <div class="col">
+            <div class="card">
+              <img src="Antologia de terror.jpeg" class="card-img-top" alt="BLUE DOLPHINS T-SHIRT">
+              <div class="card-body">
+                <h5 class="card-title">Antalogia de Terror - H.P Lovecraft</h5>
+                <p class="card-text">Abandona de una vez por todas los castillos góticos encantados, los fantasmas, vampiros y brujas para diseñar un inframundo de seres semihumanos, extraterrestres o extradimensionales, y el terror se transforma para el lector en un miedo a lo cósmico, al universo.</p>
+              </div>
+            </div>
+          </div>
+
     </main>
+  <script src="./script.js"></script>
 </body>
-<script src="script.js"></script>
-</head>
+</html>
